@@ -59,7 +59,7 @@ def create_accounts():
 
 
 ######################################################################
-# LIST ALL ACCOUNTS (ADDED ONE LINE ABOVE TO FIX WORKFLOW ERROR)
+# LIST ALL ACCOUNTS
 ######################################################################
 @app.route("/accounts", methods=["GET"])
 def list_accounts():
